@@ -9,9 +9,9 @@ dependencies {
     implementation 'org.apache.commons:commons-csv:1.4'
     implementation project(':airbyte-config:models')
     implementation project(':airbyte-protocol:models')
-    implementation project(':airbyte-integrations:base-java')
+    implementation project(':airbyte-integrations:lib:base-java')
 
-    integrationTestImplementation project(':airbyte-integrations:integration-test-lib')
+    integrationTestImplementation project(':airbyte-integrations:lib:integration-test-lib')
 }
 
 application {
