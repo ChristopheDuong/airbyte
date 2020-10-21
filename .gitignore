@@ -10,3 +10,10 @@ secrets
 # Python
 *.egg-info
 __pycache__
+.venv
+
+# Pants workspace files
+/.pants.d/
+/dist/
+/.pids
+/.pants.workdir.file_lock*
